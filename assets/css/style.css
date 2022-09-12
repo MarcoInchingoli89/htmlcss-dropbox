@@ -87,24 +87,23 @@ header button {
 
   main .container {
     width: 60%;
-    height: 33rem;
+    height: 36rem;
   }
 
  #jumbotron h1 {
     font-size: 4rem;
+    padding-top: 3rem;
  }
 
  #jumbotron p {
-    font-size: 1rem;
+    font-size: 0.9rem;
  }
 
 .jumbo_float img {
     float: right;
-    height: 20rem;
+    height: 25rem;
     padding-top: 2rem;
     padding-left: 1rem;
-    position: relative;
-    top: 5rem;
 }
 
 .jumbo_float p {
@@ -118,7 +117,7 @@ header button {
 
 .arrow {
     font-size: 2rem;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 }
 
   
