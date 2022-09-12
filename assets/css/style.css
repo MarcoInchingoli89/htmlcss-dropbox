@@ -50,3 +50,49 @@ body {
 
 /* Header */
 
+header .container_fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    vertical-align: super;
+}
+
+#header_left, #header_right {
+    padding: 1rem;
+}
+
+.info span {
+    padding-left: 1.5rem;
+}
+
+.support span {
+    padding-left: 1.5rem;
+}
+
+.buttons span {
+    padding-right: 1rem;
+}
+
+header button {
+    text-align: center;
+}
+
+.btn_blue {
+    border-radius: 1.6rem;
+    height: 1rem;
+    padding: 1rem 1.5rem;
+    line-height: 0;
+    font-size: 0.6rem;
+    border: white;
+    color: var(--db-primary);
+    background-color: var(--db-buttons);
+  }
+  
+
+/* Utilities */
+
+.inline_block {
+    display: inline-block;
+}
