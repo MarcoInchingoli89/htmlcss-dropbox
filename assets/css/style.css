@@ -79,7 +79,42 @@ header button {
     text-align: center;
 }
 
-.btn_blue {
+  /* Main */
+
+  main .container_fluid {
+    background-color: var(--db-jumbo-banner-square);
+  }
+
+  main .container {
+    width: 60%;
+  }
+
+ #jumbotron h1 {
+    font-size: 4rem;
+ }
+
+ #jumbotron p {
+    font-size: 1rem;
+ }
+
+
+
+
+
+
+  
+
+/* Utilities */
+
+.inline_block {
+    display: inline-block;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .btn_blue {
     border-radius: 1.6rem;
     height: 1rem;
     padding: 1rem 1.5rem;
@@ -89,10 +124,9 @@ header button {
     color: var(--db-primary);
     background-color: var(--db-buttons);
   }
-  
 
-/* Utilities */
-
-.inline_block {
-    display: inline-block;
-}
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
