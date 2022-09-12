@@ -87,7 +87,7 @@ header button {
 
   main .container {
     width: 60%;
-    height: 36rem;
+    height: 37rem;
   }
 
  #jumbotron h1 {
@@ -101,7 +101,7 @@ header button {
 
 .jumbo_float img {
     float: right;
-    height: 25rem;
+    height: 26rem;
     padding-top: 2rem;
     padding-left: 1rem;
 }
@@ -120,7 +120,75 @@ header button {
     padding-top: 1.5rem;
 }
 
-  
+.checkbox {
+    padding-top: 2rem;
+}
+
+.billing_options {
+    
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   
+}
+
+.billing_options input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .billing_options:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .billing_options input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .billing_options input:checked ~ .checkmark:after {
+    display: inline-block;
+  }
+
+  .billing_options .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  #plans h2 {
+    font-size: 1.8rem;
+    padding-top: 3rem;
+  }
+
 
 /* Utilities */
 
@@ -147,4 +215,8 @@ header button {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .m-left {
+    margin-left: 3rem;
   }
