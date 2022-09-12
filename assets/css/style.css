@@ -36,6 +36,7 @@ body {
     --db-border-dark: #BBBBBB;
     --db-border-light: #D9D9D9;
     --db-border-lighter: #EDEDED;
+    --db-border-main: #E8E8EA;
     --db-square-dark: #0D2481;
     --db-square-light: #0093CE;
     --db-square-bordeu: #61082B;
@@ -184,9 +185,27 @@ header button {
     background: white;
   }
 
+  #plans {
+    text-align: center;
+  } 
+
   #plans h2 {
     font-size: 1.8rem;
     padding-top: 3rem;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .cards div {
+    display: inline-block;
+    height: 40rem;
+    width: 10rem;
+    border: 1px solid #E8E8EA;
+    margin-top: 2rem;
   }
 
 
