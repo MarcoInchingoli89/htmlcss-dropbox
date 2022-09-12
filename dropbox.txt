@@ -1,0 +1,81 @@
+Header
+
+container fluid width 100% margin auto
+blocco logo
+blocco info
+blocco support
+blocco buttons
+flex
+
+
+Main
+
+jumbotron
+container fluid colore
+margin auto width 100%
+
+container normale margin auto width 100%
+h1 titolo
+p testo
+button
+div ultima riga di testo
+blocco simbolo freccia
+spostiamo la freccia con margin
+immagine decentrata
+l'immagine andrà fuori dal container con position relative (?)
+
+sezione plans
+h2
+checkbox border radius
+blocco tre card
+usiamo display inline-block e dividiamo con padding
+
+Nelle card
+titolo h6
+sotto border
+altro blocco per le info
+il testo è centrato a sinistra
+border tutto intorno alle card
+
+blocco enterprise largo 100% container
+
+sezione dropbox partner
+immagine float left
+
+blocco dropbox business
+creare 6 card
+usiamo flex wrap per mandarle a capo
+centriamo il tutto
+
+titolone fine Main
+blocco anchor tag
+testo sottolineato blu
+
+blocco partner_design
+creare due quadrati
+all'interno andremo ad inserire quattro riquadri
+daremo altezze ai blocchi, ma non al container
+colore e loghi
+il blocco centrale divide i due più piccoli
+sarà un ulteriore container con un un logo, un testo e un background
+
+banner dropobox business
+creaiamo due blocchi
+li centriamo con flex
+
+sezione faq
+crea degli h suddivisi dai dei border
+
+footer
+container fluid con sfondo nero
+lo suddividamo in 5 colonne
+nella prima creaiamo un blocco ulteriore per la lingua e il border
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+/* Common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container_fluid {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+/* Colors Palette */
+
+:root {
+
+    --db-primary: #FFFFFF;
+    --db-dark: #000000;
+    --db-border-darker: #A0A0A0;
+    --db-border-dark: #BBBBBB;
+    --db-border-light: #D9D9D9;
+    --db-border-lighter: #EDEDED;
+    --db-square-dark: #0D2481;
+    --db-square-light: #0093CE;
+    --db-square-bordeu: #61082B;
+    --db-square-green: #A2D39B;
+    --db-square-reddark: #D5001F;
+    --db-square-red: #FF1C1C;
+    --db-square-yellow: #FFD830;
+    --db-buttons: #0061FF;
+    --db-jumbo-banner-square: #B4D0E7;
+
+}
+
+/* Header */
+
