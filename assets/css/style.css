@@ -211,7 +211,6 @@ header button {
 
   .cards #professional, #advanced, #enterprise {
     display: inline-block;
-    height: 40rem;
     width: 20rem;
     border: 0.1rem solid #E8E8EA;
   }
@@ -268,7 +267,6 @@ header button {
   }
 
   #enterprise_team {
-    height: 12rem;
     width: 100%;
     border: 0.1rem solid #E8E8EA;
     margin-top: 2rem;
@@ -296,6 +294,29 @@ header button {
     top: 20%;
   }
 
+  #partner {
+    margin-top: 4rem;
+  }
+
+  .text {
+    padding-top: 3.5rem;
+    width: 82%;
+  }
+
+  #partner img {
+    padding: 2rem;
+    float: left;
+  }
+
+  #partner h3 {
+    padding-top: 0.8rem;
+  }
+
+  #partner p {
+    font-size: 0.7rem;
+    padding: 0.7rem;
+  }
+
 /* Utilities */
 
 .inline_block {
@@ -315,6 +336,17 @@ header button {
     border: white;
     color: var(--db-primary);
     background-color: var(--db-buttons);
+  }
+
+  .btn_white {
+    border-radius: 1.6rem;
+    height: 1rem;
+    margin-top: 10px;
+    padding: 1.2rem 1.5rem;
+    line-height: 0;
+    font-size: 0.6rem;
+    color: var(--db-dark);
+    background-color: var(--db-primary);
   }
 
   .clearfix::after {
