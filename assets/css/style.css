@@ -35,6 +35,7 @@ body {
     --db-border-darker: #A0A0A0;
     --db-border-dark: #BBBBBB;
     --db-border-light: #D9D9D9;
+    --db-month: #ADABA6;
     --db-border-lighter: #EDEDED;
     --db-border-main: #E8E8EA;
     --db-square-dark: #0D2481;
@@ -45,6 +46,8 @@ body {
     --db-square-red: #FF1C1C;
     --db-square-yellow: #FFD830;
     --db-buttons: #0061FF;
+    --db-check: #1363FF;
+
     --db-jumbo-banner-square: #B4D0E7;
 
 }
@@ -219,9 +222,49 @@ header button {
     font-size: 0.8rem;
   }
 
+  .content {
+    text-align:left;
+    padding: 1.2rem;
+  }
+
+  .content h3 {
+    padding-bottom: 0.8rem;
+  }
+
+  .month {
+    font-size: 0.8rem;
+    color: var(--db-month);
+  }
+
+  .unlisted li {
+    padding: 0.5rem 0;
+  }
+
+  .unlisted i {
+    padding-right: 0.3rem;
+  }
+
+  .content button {
+    margin-top: 0.8rem;
+}
+
+  .buy_now {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+
   .border_mini {
     width: 3rem;
     border-bottom: 0.1rem solid #E8E8EA;
+    padding-top: 1.5rem;
+  }
+
+  .content h5 {
+    padding-top: 1.5rem;
+  }
+
+  .blue_check {
+    color: #1363FF;
   }
 
 
@@ -258,4 +301,6 @@ header button {
 
   .unlisted {
     list-style: none;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
   }
