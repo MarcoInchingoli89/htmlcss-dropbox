@@ -18,12 +18,12 @@ img {
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body {
     background-color: white;
-    height: 100vh;
+    height: 100%;
 }
 
 /* Colors Palette */
@@ -47,7 +47,6 @@ body {
     --db-square-yellow: #FFD830;
     --db-buttons: #0061FF;
     --db-check: #1363FF;
-
     --db-jumbo-banner-square: #B4D0E7;
 
 }
@@ -91,7 +90,6 @@ header button {
 
   main .container {
     width: 60%;
-    height: 37rem;
   }
 
  #jumbotron h1 {
@@ -343,9 +341,9 @@ header button {
     font-size: 0.8rem;
   }
 
+  /* Footer */
+
   #designit {
-    display: flex;
-    justify-content: center;
     height: 350px;
   }
 
