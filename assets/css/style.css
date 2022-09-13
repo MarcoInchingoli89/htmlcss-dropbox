@@ -123,6 +123,7 @@ header button {
 
 .checkbox {
     padding-top: 2rem;
+    width: 82%;
 }
 
 .billing_options {
@@ -198,15 +199,22 @@ header button {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin-top: 2.5rem;
   }
 
-  .cards div {
+  .cards #professional, #advanced, #enterprise {
     display: inline-block;
     height: 40rem;
-    width: 10rem;
+    width: 20rem;
     border: 1px solid #E8E8EA;
-    margin-top: 2rem;
   }
+
+  .title {
+    border-bottom: 1px solid #E8E8EA;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
 
 
 /* Utilities */
