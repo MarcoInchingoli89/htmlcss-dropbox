@@ -318,7 +318,7 @@ header button {
   }
 
   #business {
-    width: 1200px;
+    width: 800px;
   }
 
   #business h2 {
@@ -330,7 +330,7 @@ header button {
     padding: 1rem 0;
   }
 
-  #tools, #send_files, #coordinate {
+  #business div {
     width: 15rem;
     padding: 1rem 0;
     padding-left: 2rem;
