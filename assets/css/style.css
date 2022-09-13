@@ -317,6 +317,26 @@ header button {
     padding: 0.7rem;
   }
 
+  #business {
+    width: 1200px;
+  }
+
+  #business h2 {
+    padding-left: 2rem;
+  }
+
+  #business p {
+    font-size: 0.7rem;
+    padding: 1rem 0;
+  }
+
+  #tools, #send_files, #coordinate {
+    width: 15rem;
+    padding: 1rem 0;
+    padding-left: 2rem;
+    display: inline-block;
+  }
+
 /* Utilities */
 
 .inline_block {
