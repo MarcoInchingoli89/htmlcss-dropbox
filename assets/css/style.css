@@ -323,6 +323,8 @@ header button {
 
   #business h2 {
     padding-left: 2rem;
+    font-size: 1.8rem;
+    padding-top: 4.5rem;
   }
 
   #business p {
@@ -332,9 +334,13 @@ header button {
 
   #business div {
     width: 15rem;
-    padding: 1rem 0;
+    padding: 1.2rem 0;
     padding-left: 2rem;
     display: inline-block;
+  }
+
+  .discover div {
+    font-size: 0.8rem;
   }
 
 /* Utilities */
