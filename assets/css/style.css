@@ -267,6 +267,34 @@ header button {
     color: #1363FF;
   }
 
+  #enterprise_team {
+    height: 12rem;
+    width: 100%;
+    border: 0.1rem solid #E8E8EA;
+    margin-top: 2rem;
+  }
+
+  .content_enterprise {
+    padding: 1.2rem;
+    position: relative;
+    text-align: left;
+  }
+
+  .content_enterprise h3 {
+    padding-bottom: 0.8rem;
+  }
+
+  .content_enterprise p {
+    font-size: 0.7rem;
+    padding-top: 2rem;
+    width: 55%;
+  }
+
+  .content_enterprise button {
+    position: absolute;
+    left: 82%;
+    top: 20%;
+  }
 
 /* Utilities */
 
