@@ -26,18 +26,24 @@ body {
     height: 100%;
 }
 
+p {
+  
+}
+
 /* Colors Palette */
 
 :root {
 
     --db-primary: #FFFFFF;
     --db-dark: #000000;
+    --db-darker: #1C1707;
     --db-border-darker: #A0A0A0;
     --db-border-dark: #BBBBBB;
     --db-border-designit: #D5D5D7;
     --db-border-light: #D9D9D9;
     --db-designit: #F5F5F5;
     --db-month: #ADABA6;
+    --db-italian: #999890;
     --db-border-lighter: #EDEDED;
     --db-border-main: #E8E8EA;
     --db-square-dark: #0D2481;
@@ -487,6 +493,22 @@ header button {
 
   .footer_menu {
     flex-grow: 1;
+  }
+
+  .border_footer {
+    width: 5rem;
+    border-bottom: 0.1rem solid var(--db-italian);
+    padding-top: 3.5rem;
+  }
+
+  #footer_language {
+    color: var(--db-italian);
+    padding-top: 2.5rem;
+    font-size: 0.7rem;
+  }
+
+  .sort_up {
+    vertical-align: sub;
   }
 
 /* Utilities */
