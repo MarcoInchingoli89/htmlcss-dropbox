@@ -349,6 +349,27 @@ header button {
 
   #design_partner {
     height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block_left {
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .block_center {
+    height: 300px;
+    flex-grow: 2;
+  }
+
+  .block_right {
+    height: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
   }
 
 /* Utilities */
@@ -397,4 +418,9 @@ header button {
     list-style: none;
     font-size: 0.7rem;
     padding-top: 1.5rem;
+  }
+
+  .design_block {
+    height: 50%;
+    width: 50%;
   }
