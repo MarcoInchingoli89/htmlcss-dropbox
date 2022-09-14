@@ -441,6 +441,30 @@ header button {
     width: 35%;
   }
 
+  #faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #faq h2 {
+    font-size: 1.8rem;
+  }
+
+ .first_question {
+  border-top: 0.1rem solid var(--db-border-designit);
+  border-bottom: 0.1rem solid var(--db-border-designit);
+ }
+
+ .second_question {
+  border-bottom: 0.1rem solid var(--db-border-designit);
+ }
+
+ .third_question {
+  border-bottom: 0.1rem solid var(--db-border-designit);
+ }
+
   .bg_footer {
     background-color: var(--db-dark);
     height: 400px;
@@ -503,4 +527,8 @@ header button {
     width: 50%;
     display: flex;
     justify-content: center;
+  }
+
+  .border_faq {
+    border-bottom: 0.1rem solid var(--db-border-designit);
   }
