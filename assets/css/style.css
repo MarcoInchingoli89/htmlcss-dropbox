@@ -360,9 +360,15 @@ header button {
     flex-wrap: wrap;
   }
 
+  .block_left img {
+    width: 150px;
+    padding: 2.5rem 0;
+
+  }
+
   .block_center {
     height: 350px;
-    width: 40%;
+    flex-grow: 1;
     text-align: left;
     background-color:var(--db-designit);
   }
@@ -444,4 +450,6 @@ header button {
   .design_block {
     height: 50%;
     width: 50%;
+    display: flex;
+    justify-content: center;
   }
