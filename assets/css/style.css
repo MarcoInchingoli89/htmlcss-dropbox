@@ -478,6 +478,17 @@ header button {
     height: 400px;
   }
 
+  #footer_bottom {
+    display: flex;
+    justify-content: center;
+    color: var(--db-primary);
+    padding-top: 4rem;
+  }
+
+  .footer_menu {
+    flex-grow: 1;
+  }
+
 /* Utilities */
 
 .inline_block {
