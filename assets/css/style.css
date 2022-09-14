@@ -92,6 +92,10 @@ header button {
     width: 60%;
   }
 
+  #jumbotron {
+    height: 595px;
+  }
+
  #jumbotron h1 {
     font-size: 4rem;
     padding-top: 3rem;
@@ -197,7 +201,7 @@ header button {
 
   #plans h2 {
     font-size: 1.8rem;
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
 
   .cards {
@@ -343,7 +347,7 @@ header button {
 
   /* Footer */
 
-  #designit {
+  #design_partner {
     height: 350px;
   }
 
