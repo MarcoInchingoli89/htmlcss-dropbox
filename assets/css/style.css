@@ -427,6 +427,18 @@ header button {
 
   #call_to_action {
     background-color: var(--db-jumbo-banner-square);
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 6rem;
+  }
+
+  #call_to_action h2 {
+    font-size: 1.8rem;
+  }
+
+  .business_title {
+    width: 35%;
   }
 
   .bg_footer {
@@ -464,6 +476,10 @@ header button {
     font-size: 0.6rem;
     color: var(--db-dark);
     background-color: var(--db-primary);
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
   .clearfix::after {
