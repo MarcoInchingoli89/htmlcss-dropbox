@@ -384,6 +384,15 @@ header button {
     flex-wrap: wrap;
   }
 
+  #call_to_action {
+    background-color: var(--db-jumbo-banner-square);
+  }
+
+  .bg_footer {
+    background-color: var(--db-dark);
+    height: 400px;
+  }
+
 /* Utilities */
 
 .inline_block {
