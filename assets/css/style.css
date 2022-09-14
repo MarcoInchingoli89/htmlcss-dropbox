@@ -26,10 +26,6 @@ body {
     height: 100%;
 }
 
-p {
-  
-}
-
 /* Colors Palette */
 
 :root {
@@ -50,6 +46,7 @@ p {
     --db-square-light: #0093CE;
     --db-square-bordeu: #61082B;
     --db-square-green: #A2D39B;
+    --db-square-greenlight: #D1E9CD;
     --db-square-reddark: #D5001F;
     --db-square-red: #FF1C1C;
     --db-square-yellow: #FFD830;
@@ -76,14 +73,25 @@ header .container_fluid {
 
 .info span {
     padding-left: 1.5rem;
+    font-size: 0.7rem;
+}
+
+.info a {
+  text-decoration: none;
 }
 
 .support span {
     padding-left: 1.5rem;
+    font-size: 0.7rem;
+}
+
+.support a {
+  text-decoration: none;
 }
 
 .buttons span {
     padding-right: 1rem;
+    font-size: 0.7rem;
 }
 
 header button {
@@ -110,7 +118,7 @@ header button {
  }
 
  #jumbotron p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
  }
 
 .jumbo_float img {
@@ -127,11 +135,12 @@ header button {
 
 .cancel {
     padding-top: 2rem;
+    font-size: 0.7rem;
 }
 
 .arrow {
     font-size: 2rem;
-    padding-top: 1.5rem;
+    margin-top: 5.5rem;
 }
 
 #plans h2 {
@@ -253,7 +262,7 @@ header button {
     padding-right: 0.3rem;
   }
 
-  .content button {
+  .content a {
     margin-top: 0.8rem;
 }
 
@@ -298,7 +307,7 @@ header button {
     width: 55%;
   }
 
-  .content_enterprise button {
+  .content_enterprise a {
     position: absolute;
     left: 82%;
     top: 20%;
@@ -325,6 +334,7 @@ header button {
   #partner p {
     font-size: 0.7rem;
     padding: 0.7rem;
+    padding-bottom: 2rem;
   }
 
   #business {
@@ -358,6 +368,7 @@ header button {
   #design_partner {
     display: flex;
     justify-content: center;
+    padding-top: 4.5rem;
   }
 
   .block_left {
@@ -369,23 +380,44 @@ header button {
   .design img {
     width: 80px;
     padding: 4rem 0;
+    filter: invert(1);
 
+  }
+
+  .design {
+    background-color: var(--db-square-green);
+    border: 0.6rem solid var(--db-square-greenlight);
   }
 
   .uf img {
     width: 80px;
     padding: 5.5rem 0;
+    filter: invert(1);
 
+  }
+
+  .uf {
+    background-color: var(--db-square-light);
   }
 
   .asu img {
     width: 100px;
     padding: 4rem 0;
+    filter: invert(1);
+  }
+
+  .asu {
+    background-color: var(--db-square-bordeu);
   }
 
   .topps img {
     width: 100px;
     padding: 4rem 0;
+    filter: invert(1);
+  }
+
+  .topps {
+    background-color: var(--db-square-red);
   }
 
   .block_center {
@@ -428,7 +460,23 @@ header button {
   .block_right img {
     width: 100px;
     padding: 4rem 0;
+    filter: invert(1);
+  }
 
+  .world_bicycle {
+    background-color: var(--db-square-reddark);
+  }
+
+  .hearst {
+    background-color: var(--db-jumbo-banner-square);
+  }
+
+  .lonely_planet {
+    background-color: var(--db-square-dark);
+  }
+
+  .clear_channel {
+    background-color: var(--db-square-yellow);
   }
 
   #call_to_action {
@@ -525,11 +573,14 @@ header button {
     border-radius: 1.6rem;
     height: 1rem;
     padding: 1rem 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     line-height: 0;
     font-size: 0.6rem;
     border: white;
     color: var(--db-primary);
     background-color: var(--db-buttons);
+    text-decoration: none;
   }
 
   .btn_white {
@@ -537,14 +588,21 @@ header button {
     height: 1rem;
     margin-top: 10px;
     padding: 1.2rem 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     line-height: 0;
     font-size: 0.6rem;
     color: var(--db-dark);
     background-color: var(--db-primary);
+    text-decoration: none;
   }
 
-  a:link {
+  .no_decoration {
     text-decoration: none;
+  }
+
+  .border_black {
+    border: 0.1rem solid var(--db-dark);
   }
 
   .clearfix::after {
